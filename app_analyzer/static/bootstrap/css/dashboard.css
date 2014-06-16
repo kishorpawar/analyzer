@@ -94,3 +94,27 @@ body {
   display: inline-block;
   border-radius: 50%;
 }
+
+.placeholders div {
+  font: 20px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
+
+.slice text {
+    font-size: 16pt;
+    font-family: Arial;
+}
+
+p{
+	font-variant: small-caps;
+font: bold;
+font-size: -webkit-xxx-large;
+font-style: oblique;
+font-weight: 600;
+color: cadetblue;
+font-family: serif;
+}

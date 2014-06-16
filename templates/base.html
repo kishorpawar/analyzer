@@ -54,8 +54,8 @@
           <ul class="nav nav-sidebar">
             <li><a href="#">Analytics</a></li>
             <li><a id="gender_link" href="#">Gender</a></li>
-            <li><a href="#">Degrees</a></li>
-            <li><a href="#">Programs</a></li>
+            <li><a id="degree_link" href="#">Degrees</a></li>
+            <li><a id="program_link" href="#">Programs</a></li>
             <li><a href="">Specializations</a></li>
             <li><a href="">Employers</a></li>
             <li><a href="">Experiences</a></li>
@@ -69,12 +69,16 @@
           <h1 class="page-header">Dashboard</h1>
 
 			{% block content %}
-           <div class="row placeholders">
+           	<div class="row placeholders">
             
-          </div>
+          	</div>
+          	<div class="row" id="table">
+          		<table>
+          		</table>
+          	</div>
+			{% endblock content %} 
         </div>
       </div>
-		{% endblock content %} 
     </div>
     {% endblock dashboard %}
 	{% block base_js %}
